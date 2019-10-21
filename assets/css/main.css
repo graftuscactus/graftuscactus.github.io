@@ -3234,18 +3234,16 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #b3cab3;
-			background-image: url("../../images/graftuscactus.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/GraftusCactusLogo.png");
-			/*background-size: auto,								auto,														100% auto; */
-			background-size: cover;
-background-size: contain;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
-			z-index: -1;
-		}
+			background-image:  url("../../images/GraftusCactusLogo.png");
+			background-size: contain;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			z-index: -1;}
 
 			#wrapper > .bg.fixed {
 				position: fixed;
+				background-size: contain;
 				width: 100vw;
 				height: 100vh;
 			}
@@ -4623,8 +4621,7 @@ background-size: contain;
 			right: 0;
 			text-align: right;
 			top: 0;
-			width: 7rem;
-		}
+			width: 7rem;}
 
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
