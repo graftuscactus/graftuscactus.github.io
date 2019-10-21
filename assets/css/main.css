@@ -3566,16 +3566,19 @@ background-size: contain;
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: darkgreen;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
+			color: green;
+			background-color: white;
 			letter-spacing: 0.075em;
 			line-height: 1;
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
 			visibility: visible;
+			
 		}
 
 			#header .logo:hover {
