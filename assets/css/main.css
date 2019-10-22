@@ -3515,7 +3515,7 @@ input, select, textarea {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 20rem;
+		height: 40rem;
 		padding-bottom: 8rem;
 		position: relative;
 		text-align: center;
@@ -3582,18 +3582,19 @@ input, select, textarea {
 				color: #18bfef !important;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 800px) {
 
 			#header {
-				height: 14rem;
+				height: 30rem;
 				padding-bottom: 4rem;
 			}
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 650px) {
 
 			#header {
+				height: 25rem;
 				padding-bottom: 3rem;
 			}
 
